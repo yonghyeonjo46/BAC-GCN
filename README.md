@@ -3,7 +3,7 @@
 # Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification" [ACM MM '25]
 
 [![Static Badge](https://img.shields.io/badge/Conference-ACM%20MM%2025-green)](https://doi.org/10.1145/3746027.3755253)
-[![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://lpiccinelli-eth.github.io/pub/unidepth/)
+[![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://yonghyeonjo46.github.io/BAC-GCN/)
 <!--[![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)-->
 
 ![](assets/final_method.png)
