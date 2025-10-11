@@ -1,2 +1,11 @@
-# BAC-GCN
-Official implementation of BAC-GCN: Background-Aware CLIP-GCN for Unsupervised Multi-Label Classification (ACM MM 2025). This repository includes full code, pretrained models, and additional experiments not included in the paper.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>포도빛</title>
+</head>
+<body>
+<h1>포도빛의 Github Page 연습</h1>
+<p>잘 나온다!</p>
+</body>
+</html>
