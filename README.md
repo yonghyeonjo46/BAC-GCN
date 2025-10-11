@@ -12,6 +12,7 @@
 
 This is an official implementation of the ACM MM paper "Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
 
+![](https://github.com/yonghyeonjo46/BAC-GCN/blob/main/assets/final_method.pdf)
 ![](assets/final_method.png)
 
 ## Abstract
