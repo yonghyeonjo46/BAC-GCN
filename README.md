@@ -2,18 +2,15 @@
 
 # Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification" [ACM MM '25]
 
-<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-<a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
-<a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
-<a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br>
-[![Static Badge](https://img.shields.io/badge/Conference-CVPR2024-blue)](https://openaccess.thecvf.com/content/CVPR2024/html/Mitsuzumi_Understanding_and_Improving_Source-free_Domain_Adaptation_from_a_Theoretical_Perspective_CVPR_2024_paper.html)
+[![Static Badge](https://img.shields.io/badge/Conference-ACM%20MM%2025-green)](https://doi.org/10.1145/3746027.3755253)
+[![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://lpiccinelli-eth.github.io/pub/unidepth/)
+[![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)
 
+![](assets/final_method.png)
 </div>
-
 This is an official implementation of the ACM MM paper "Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
 
-![](https://github.com/yonghyeonjo46/BAC-GCN/blob/main/assets/final_method.pdf)
-![](assets/final_method.png)
+
 
 ## Abstract
 
