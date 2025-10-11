@@ -4,11 +4,11 @@
 
 [![Static Badge](https://img.shields.io/badge/Conference-ACM%20MM%2025-green)](https://doi.org/10.1145/3746027.3755253)
 [![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://lpiccinelli-eth.github.io/pub/unidepth/)
-[![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)
+<!--[![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)-->
 
 ![](assets/final_method.png)
 </div>
-This is an official implementation of the ACM MM paper "Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
+This is an official implementation of the ACM Multimedia paper "Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
 
 
 
@@ -97,7 +97,7 @@ cd logs/mlflow
 
 mlflow ui
 ```
-
+<!--
 ## Acknowledgement
 
 Our implementation is based on the following works. We greatly appreciate all these excellent works.
@@ -118,4 +118,5 @@ Our implementation is based on the following works. We greatly appreciate all th
     year      = {2024},
     pages     = {28515-28524}
 }
+-->
 ```
