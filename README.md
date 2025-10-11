@@ -4,24 +4,32 @@
 
 [![Static Badge](https://img.shields.io/badge/Conference-ACM%20MM%2025-green)](https://doi.org/10.1145/3746027.3755253)
 [![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://yonghyeonjo46.github.io/BAC-GCN/)
+[![arXiv](https://img.shields.io/badge/BAC_GCN%20arXiv--blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)
 <!--[![arXiv](https://img.shields.io/badge/UniDepthV1%20arXiv-2403.18913-blue?logo=arxiv-v1&color=%23B31B1B)](https://arxiv.org/abs/)-->
 
-![](assets/final_method.png)
+
 </div>
 This is an official implementation of the ACM Multimedia paper "Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"
 
+<br> 
+<br> 
 
+<div align="center">
+  <img src="assets/final_method.png" alt="Final Method">
+</div>
 
 ## Abstract
 
 Multi-label classification has recently demonstrated promising performance through CLIP-based unsupervised learning. However, existing CLIP-based approaches primarily focus on object-centric features, which limits their ability to capture rich contextual dependencies between objects and their surrounding scenes. In addition, the vision transformer architecture of CLIP exhibits a bias toward the most prominent object, often failing to recognize small or less conspicuous objects precisely. To address these limitations, we propose Background-Aware CLIP-GCN (BAC-GCN), a novel framework that explicitly models class-background interactions and is designed to capture fine-grained visual patterns of small objects effectively. BAC-GCN is composed of three key components: (i) a Similarity Kernel that extracts patch-level local features for each category (i.e., class and background), (ii) a CLIP-GCN that captures relational dependencies between local-global and class-background features, and (iii) a Re-Training for Small Objects (ReSO) strategy that enhances the representation of small and hard-to-learn objects by learning their distinctive visual characteristics. Therefore, our method facilitates a deeper understanding of complex visual contexts, enabling the model to make decisions by leveraging diverse visual cues and their contextual relationships. Extensive experiments demonstrate that BAC-GCN achieves state-of-the-art performance on three benchmark multi-label datasets: VOC07, COCO, and NUS, validating the effectiveness of our approach.
 
+<!--
 ## YouTube
 <div align="center">
 
 <a href="https://www.youtube.com/watch?v=SnWqZ_lb93Y"><img src="https://github.com/user-attachments/assets/86fa69a1-ee69-468f-ac99-d38fcb873934" alt="youtube video" width="600"/></a>
 
 </div>
+-->
 
 ## How to run
 
