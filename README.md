@@ -81,10 +81,9 @@ data_folder/
 
 The pseudo-label generation process is based on [LAVIS](https://github.com/salesforce/LAVIS). Please see there for the format and instructions on how to use it.
 
-* The pre-tained weights of **CLIP** will be automatically downloaded by running.
 * The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `gpt_file/`.
+* Please download CLIP pre-trained [ViT-B/16](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `/local_root/pretrained_models/clip`.
 * Please download the images detected during the ReSO process from [here].
-
 
 ```bash
 python src/train.py trainer=gpu experiment=office31_src
