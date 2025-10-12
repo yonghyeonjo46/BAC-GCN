@@ -98,7 +98,7 @@ python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_fil
 | --- | --- | --- | --- | --- | 
 | CDUL | 89.0 | 88.6 | 69.2 | 44.0 |
 | TagCLIP | 92.8 | - | 68.8 | 35.0 |
-| BAC-GCN (paper) | **93.0** | **93.2** | **68.8** | **48.8** |
+| BAC-GCN (paper) | **93.0** | **93.2** | **72.2** | **48.8** |
 
 ## Acknowledgement
 
