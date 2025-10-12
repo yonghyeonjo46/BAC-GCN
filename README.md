@@ -102,7 +102,7 @@ python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_fil
 
 ## Acknowledgement
 
-This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [CLIP](https://github.com/openai/CLIP). Thanks for their wonderful works.
+This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [TaI-DPT](https://github.com/guozix/TaI-DPT), [CLIP](https://github.com/openai/CLIP). Thanks for their wonderful works.
 
 <!--
 ## Acknowledgement
