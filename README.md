@@ -15,7 +15,7 @@ This is an official implementation of the ACM Multimedia paper "Official impleme
 <br> 
 
 <div align="center">
-  <img src="assets/final_method.png" alt="Final Method">
+  <img src="assets/final_method.png" alt="Final Method" width="80%">
 </div>
 
 ## Abstract
@@ -90,10 +90,11 @@ python train_clip_v12.py --val_img_root data_folder/voc2012/VOC2012_train_val/VO
 
 ### Results
 
-| Method | VOC2007 | VOC2007 | COCO2014 | VOC2007 |
+| Method | VOC2007 | VOC2012 | COCO2014 | NUSWIDE |
 | --- | --- | --- | --- | --- | 
-| TagCLIP (paper) | 92.8 | 68.8 | 68.8 | 68.8 |
-| TagCLIP (this repo) | 92.8 | 68.7 | 68.8 | 68.8 |
+| CDUL | 89.0 | 88.6 | 69.2 | 44.0 |
+| TagCLIP | 92.8 | - | 68.8 | 35.0 |
+| BAC-GCN (paper) | **93.0** | **93.2** | **68.8** | **48.8** |
 
 ## Acknowledgement
 
