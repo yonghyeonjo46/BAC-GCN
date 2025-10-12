@@ -87,6 +87,14 @@ python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_fil
 python train_clip_v12.py --val_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --val_split_file ./imageset/voc2012/val.txt --train_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --train_split_file ./imageset/voc2012/train.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset voc2012
 ```
 
+
+### Results
+
+| Method | VOC2007 | VOC2007 | COCO2014 | VOC2007 |
+| --- | --- | --- | --- | --- | 
+| TagCLIP (paper) | 92.8 | 68.8 | 68.8 | 68.8 |
+| TagCLIP (this repo) | 92.8 | 68.7 | 68.8 | 68.8 |
+
 ## Acknowledgement
 
 This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [CLIP](https://github.com/openai/CLIP). Thanks for their wonderful works.
