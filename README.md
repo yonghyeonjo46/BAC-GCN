@@ -92,7 +92,7 @@ python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_fil
 ```
 
 
-### Results
+## Results
 
 | Method | VOC2007 | VOC2012 | COCO2014 | NUSWIDE |
 | --- | --- | --- | --- | --- | 
