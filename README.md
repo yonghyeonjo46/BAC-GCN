@@ -54,7 +54,7 @@ pip install -r requirements.txt
 Please download the datasets from the original sources. Then, please place them as below.
 
 ```
-data_folder/
+data/
 ├── coco2014/
 │   ├── train2014
 │   └── val2014
@@ -73,6 +73,21 @@ data_folder/
 ### Prepare Training Resources
 
 * The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `caption/`.
+```
+caption/
+├── coco2014/
+│   ├── coco2014_captions.json
+│   └── coco2014_re_captions.json
+├── voc2007/
+│   ├── voc2007_captions.json
+│   └── voc2007_re_captions.json
+├── voc2012/
+│   ├── voc2012_captions.json
+│   └── voc2012_re_captions.json
+└── nuswide/
+    ├── nuswide_captions.json
+    └── nuswide_re_captions.json
+```
 * Please download CLIP pre-trained [**ViT-B/16**](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `/local_root/pretrained_models/clip`.
 * Please download the images detected during the ReSO process from [**here**].
 
@@ -80,8 +95,8 @@ data_folder/
 ### Run 4-Step Filter
 
 ```bash
-# For COCO2014
-python caption.py --dataset coco2014 --file caption/coco2014/coco2014_captions.json
+# For VOC2007
+python caption.py --dataset voc2007
 ```
 
 ### Train
