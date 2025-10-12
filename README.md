@@ -93,11 +93,11 @@ caption/
 * Please download the images detected during the ReSO process from [**here**].
 
 
-### Run 4-Step Filter
+### Run 4-Step Filter Process
 
 ```bash
-# For VOC2007
-python caption.py --dataset voc2007
+# For COCO2014
+python caption.py --dataset coco2014
 ```
 
 ### Train
