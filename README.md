@@ -73,29 +73,18 @@ data_folder/
 ### Prepare Training Resources
 
 * The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `gpt_file/`.
-* Please download CLIP pre-trained [ViT-B/16](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `/local_root/pretrained_models/clip`.
-* Please download the images detected during the ReSO process from [here].
+* Please download CLIP pre-trained [**ViT-B/16**](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `/local_root/pretrained_models/clip`.
+* Please download the images detected during the ReSO process from [**here**].
+
+
+### Train
 
 ```bash
-python src/train.py trainer=gpu experiment=office31_src
-```
+# For COCO2014
+python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_file ./imageset/coco2014/val_cls.txt --train_img_root data_folder/coco2014/images/train2014/ --train_split_file ./imageset/coco2014/train_cls.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset coco2014
 
-### Target Training
-
-```bash
-python src/train.py trainer=gpu experiment=office31_tgt_ours_pb_teachaug_directed
-```
-
-Please see details in: [configs/experiment/](configs/experiment/)
-
-### To see results
-
-The logs are managed by [mlflow](https://mlflow.org).
-
-```bash
-cd logs/mlflow
-
-mlflow ui
+# For VOC2012
+python train_clip_v12.py --val_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --val_split_file ./imageset/voc2012/val.txt --train_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --train_split_file ./imageset/voc2012/train.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset voc2012
 ```
 
 ## Acknowledgement
