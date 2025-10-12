@@ -72,7 +72,7 @@ data_folder/
 
 ### Prepare Training Resources
 
-* The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `gpt_file/`.
+* The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `caption/`.
 * Please download CLIP pre-trained [**ViT-B/16**](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `/local_root/pretrained_models/clip`.
 * Please download the images detected during the ReSO process from [**here**].
 
