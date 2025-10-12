@@ -110,7 +110,7 @@ python caption.py --dataset voc2012
 python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_file ./imageset/coco2014/val_cls.txt --train_img_root data_folder/coco2014/images/train2014/ --train_split_file ./imageset/coco2014/train_cls.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset coco2014
 
 # For VOC2012
-python train_v12.py --val_img_root data/coco2014/images/val2014/ --val_split_file ./imageset/coco2014/val_cls.txt --train_img_root data_folder/coco2014/images/train2014/ --train_split_file ./imageset/coco2014/train_cls.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset coco2014
+python train_v12.py --val_img_root data/voc2012/images/val2014/ --val_split_file ./imageset/voc2007/val_cls.txt --train_img_root data_folder/voc2007/images/train2014/ --train_split_file ./imageset/voc2007/train_cls.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset voc2012
 ```
 
 
