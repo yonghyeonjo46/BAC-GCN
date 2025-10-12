@@ -76,15 +76,15 @@ data_folder/
     └── ImageList
 ```
 
-### Prepare Source
-
-Please download the datasets from the original sources. Then, please place them as below.
-https://
-
 
 ### Source Training
 
-Training configuration is based on [Hydra](https://hydra.cc). Please see there for the format and instructions on how to use it.
+The pseudo-label generation process is based on [LAVIS](https://github.com/salesforce/LAVIS). Please see there for the format and instructions on how to use it.
+
+* The pre-tained weights of **CLIP** will be automatically downloaded by running.
+* The pseudo-labels produced by [**LAVIS**](https://github.com/salesforce/LAVIS) have been stored at `gpt_file/`.
+* Please download the images detected during the ReSO process from [here].
+
 
 ```bash
 python src/train.py trainer=gpu experiment=office31_src
@@ -107,6 +107,11 @@ cd logs/mlflow
 
 mlflow ui
 ```
+
+## Acknowledgement
+
+This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [CLIP](https://github.com/openai/CLIP). Thanks for their wonderful works.
+
 <!--
 ## Acknowledgement
 
