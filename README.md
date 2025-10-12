@@ -77,14 +77,18 @@ data_folder/
 * Please download the images detected during the ReSO process from [**here**].
 
 
+### 4-Step Process
+
+```bash
+# For COCO2014
+python caption.py --dataset coco --file caption/coco2014/coco2014_captions.json
+```
+
 ### Train
 
 ```bash
 # For COCO2014
 python train_c14.py --val_img_root data/coco2014/images/val2014/ --val_split_file ./imageset/coco2014/val_cls.txt --train_img_root data_folder/coco2014/images/train2014/ --train_split_file ./imageset/coco2014/train_cls.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset coco2014
-
-# For VOC2012
-python train_clip_v12.py --val_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --val_split_file ./imageset/voc2012/val.txt --train_img_root data_folder/voc2012/VOC2012_train_val/VOC2012_train_val/JPEGImages/ --train_split_file ./imageset/voc2012/train.txt --model_path ./pretrained_models/clip/ViT-B-16.pt --dataset voc2012
 ```
 
 
