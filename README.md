@@ -41,17 +41,18 @@ Also you can build the environment by following the instruction below.
 
 ```bash
 # clone project
-git clone https://github.com/nttcslab/improvsed_sfda
-cd improved_sfda
+git clone https://github.com/yonghyeonjo46/BAC-GCN.git
+cd BAC-GCN
 
 # create conda environment
 cd docker
-conda create -n myenv python=3.10
-conda activate myenv
+conda create -n bac python=3.9
+conda activate bac
 
 # install pytorch according to instructions
 # https://pytorch.org/get-started/
-conda install pytorch=2.0.0 torchvision=0.15.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+pip install opencv-python ftfy regex tqdm ttach lxml
 
 # install requirements
 pip install -r requirements.txt
