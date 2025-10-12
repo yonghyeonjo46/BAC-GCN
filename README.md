@@ -62,22 +62,19 @@ pip install -r requirements.txt
 Please download the datasets from the original sources. Then, please place them as below.
 
 ```
-data/
-├── office31/
-│   ├── amazon
-│   ├── dslr
-│   ├── webcam
-│   └── image_list
-├── officehome/
-│   ├── Art
-│   ├── Clipart
-│   ├── Product
-│   ├── Real_World
-│   └── image_list 
-└── visda2017/
-    ├── train
-    ├── validation
-    └── image_list
+data_folder/
+├── coco2014/
+│   ├── train2014
+│   └── val2014
+├── voc2007/
+│   ├── VOCtrainval_06-Nov-2007
+│   └── VOCtest_06-Nov-2007
+├── voc2012/
+│   ├── VOC2012_test
+│   └── VOC2012_train_val
+└── nuswide/
+    ├── Flickr
+    └── ImageList
 ```
 
 ### Source Training
