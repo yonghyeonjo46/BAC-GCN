@@ -77,11 +77,11 @@ data_folder/
 * Please download the images detected during the ReSO process from [**here**].
 
 
-### 4-Step Process
+### Run 4-Step Filter
 
 ```bash
 # For COCO2014
-python caption.py --dataset coco --file caption/coco2014/coco2014_captions.json
+python caption.py --dataset coco2014 --file caption/coco2014/coco2014_captions.json
 ```
 
 ### Train
