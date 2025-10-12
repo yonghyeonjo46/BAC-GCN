@@ -35,9 +35,7 @@ Multi-label classification has recently demonstrated promising performance throu
 
 ### Create Environment
 
-You can build the environment using `Dockerfile` in the `docker` directory.
-
-Also you can build the environment by following the instruction below.
+You can build the environment by following the instruction below.
 
 ```bash
 # clone project
@@ -77,6 +75,12 @@ data_folder/
     ├── Flickr
     └── ImageList
 ```
+
+### Prepare Source
+
+Please download the datasets from the original sources. Then, please place them as below.
+https://
+
 
 ### Source Training
 
