@@ -77,7 +77,7 @@ data_folder/
 ```
 
 
-### Source Training
+### Prepare Training Resources
 
 The pseudo-label generation process is based on [LAVIS](https://github.com/salesforce/LAVIS). Please see there for the format and instructions on how to use it.
 
