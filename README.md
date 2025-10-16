@@ -1,4 +1,4 @@
-<div align="center">
+<img width="2481" height="1361" alt="image" src="https://github.com/user-attachments/assets/1b610c23-1174-474e-8a0d-ce8565f59d73" /><div align="center">
 
 # Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification" [ACM MM '25]
 
@@ -22,21 +22,32 @@ This is an official implementation of the ACM Multimedia paper "Official impleme
 
 Multi-label classification has recently demonstrated promising performance through CLIP-based unsupervised learning. However, existing CLIP-based approaches primarily focus on object-centric features, which limits their ability to capture rich contextual dependencies between objects and their surrounding scenes. In addition, the vision transformer architecture of CLIP exhibits a bias toward the most prominent object, often failing to recognize small or less conspicuous objects precisely. To address these limitations, we propose Background-Aware CLIP-GCN (BAC-GCN), a novel framework that explicitly models class-background interactions and is designed to capture fine-grained visual patterns of small objects effectively. BAC-GCN is composed of three key components: (i) a Similarity Kernel that extracts patch-level local features for each category (i.e., class and background), (ii) a CLIP-GCN that captures relational dependencies between local-global and class-background features, and (iii) a Re-Training for Small Objects (ReSO) strategy that enhances the representation of small and hard-to-learn objects by learning their distinctive visual characteristics. Therefore, our method facilitates a deeper understanding of complex visual contexts, enabling the model to make decisions by leveraging diverse visual cues and their contextual relationships. Extensive experiments demonstrate that BAC-GCN achieves state-of-the-art performance on three benchmark multi-label datasets: VOC07, COCO, and NUS, validating the effectiveness of our approach.
 
-## Teaser
+## Introduction
 
-<div align="center">
+<!-- <div align="center">
   <img src="assets/teaser_.png" alt="Final Method" width="80%">
-</div>
+</div> -->
 
-<br> 
-<br> 
 
 <div align="center">
   <img src="assets/teaser.png" alt="Final Method" width="80%">
 </div>
-
-
-
+<br> 
+In this paper, we propose Background-Aware CLIP-GCN (BAC-GCN), a novel framework that enhances multi-label classification by capturing fine-grained and context-aware visual patterns.
+% 
+Accordingly, the proposed framework is carefully designed to leverage not only class (\eg, \textit{skis}) but also background (\eg, \textit{snow}) information to achieve a deeper understanding of contextual relationships.
+%
+Specifically, our approach aims to enhance object-level discrimination by introducing a Similarity Kernel that analyzes local patches to extract diverse and discriminative visual cues from complex scenes.
+%
+We also utilize a Large Language Model (LLM)~\cite{li2023blip} to generate image captions and employ CLIP to extract local, global, class-specific, and background features.
+% 
+The generated captions and extracted features generate multi-modal features to help our network understand the global context and incorporate background knowledge together.
+% 
+The multi-modal features are then integrated into a Graph Convolutional Network (GCN), which explicitly models relational dependencies between object classes and backgrounds to enhance contextual reasoning capabilities.
+% 
+Furthermore, we propose a Re-training for Small Objects (ReSO) strategy to enhance recognition of small and hard-to-learn objects.
+% 
+We identify such objects through a similarity map derived from patch-level features and selectively re-train them to reinforce fine-grained representation learning.
 
 ## Results
 
