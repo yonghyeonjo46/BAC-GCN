@@ -1,6 +1,7 @@
-<img width="2481" height="1361" alt="image" src="https://github.com/user-attachments/assets/1b610c23-1174-474e-8a0d-ce8565f59d73" /><div align="center">
 
-# Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification" [ACM MM '25]
+<div align="center">
+
+# Official implementation of the paper "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification"<br>[ACM MM '25]
 
 [![Static Badge](https://img.shields.io/badge/Conference-ACM%20MM%2025-green)](https://doi.org/10.1145/3746027.3755253)
 [![ProjectPage](https://img.shields.io/badge/Project_Page-BAC_GCN-blue)](https://yonghyeonjo46.github.io/BAC-GCN/)
