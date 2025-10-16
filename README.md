@@ -126,6 +126,16 @@ python train_v12.py --val_img_root data/voc2012/images/val2014/ --val_split_file
 
 This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [TaI-DPT](https://github.com/guozix/TaI-DPT), [CLIP](https://github.com/openai/CLIP). Thanks for their wonderful works.
 
+## Citation
+
+@InProceedings{yhj25_mm,
+    author    = {Yonghyeon Jo, Janghyun Kim, Jinsun Park},
+    title     = {BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification},
+    booktitle = {Proceedings of the 33st ACM International Conference on Multimedia},
+    year         = {2025},
+    pages     = {28515-28524}
+}
+
 <!--
 ## Acknowledgement
 
@@ -139,13 +149,6 @@ Our implementation is based on the following works. We greatly appreciate all th
 ## Citation
 
 ```
-@InProceedings{Mitsuzumi_2024_CVPR,
-    author    = {Mitsuzumi, Yu and Kimura, Akisato and Kashima, Hisashi},
-    title     = {Understanding and Improving Source-free Domain Adaptation from a Theoretical Perspective},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {28515-28524}
-}
+
 -->
 ```
