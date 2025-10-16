@@ -25,20 +25,21 @@ Multi-label classification has recently demonstrated promising performance throu
 ## Results
 
 <div align="center">
-  <img src="assets/reso.png" alt="Final Method" width="80%">
+  <img src="assets/teaser2.png" alt="Final Method" width="80%">
 </div>
 
 <div align="center">
-  <img src="assets/final_method.png" alt="Final Method" width="80%">
+  <img src="assets/paper_img1.png" alt="Final Method" width="80%">
 </div>
 
 <div align="center">
-  <img src="assets/final_method.png" alt="Final Method" width="80%">
+  <img src="assets/paper_img2.png" alt="Final Method" width="80%">
 </div>
 
 <div align="center">
-  <img src="assets/final_method.png" alt="Final Method" width="80%">
+  <img src="assets/paper_img3.png" alt="Final Method" width="80%">
 </div>
+
 
 <!--
 ## YouTube
