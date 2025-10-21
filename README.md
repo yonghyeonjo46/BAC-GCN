@@ -16,7 +16,7 @@ This is an official implementation of the ACM Multimedia paper "Official impleme
 <br> 
 
 <div align="center">
-  <img src="assets/final_method.png" alt="Final Method" width="80%">
+  <img src="assets/final_method.png" alt="Final Method" width="70%">
 </div>
 
 ## Abstract
@@ -31,7 +31,7 @@ Multi-label classification has recently demonstrated promising performance throu
 
 
 <div align="center">
-  <img src="assets/teaser.png" alt="Final Method" width="80%">
+  <img src="assets/teaser.png" alt="Final Method" width="60%">
 </div>
 <br> 
 In this paper, we propose Background-Aware CLIP-GCN (BAC-GCN), a novel framework that enhances multi-label classification by capturing fine-grained and context-aware visual patterns.
@@ -54,7 +54,7 @@ We identify such objects through a similarity map derived from patch-level featu
 <br> 
 
 <div align="center">
-  <img src="assets/paper_img3.png" alt="Final Method" width="80%">
+  <img src="assets/paper_img3.png" alt="Final Method" width="70%">
 </div>
 
 
