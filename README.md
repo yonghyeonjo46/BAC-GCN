@@ -57,11 +57,19 @@ We identify such objects through a similarity map derived from patch-level featu
   <img src="assets/paper_img3.png" alt="Final Method" width="80%">
 </div>
 
+
+<br> 
+<br> 
+
+<div align="center">
+  
 | Method | VOC2007 | VOC2012 | COCO2014 | NUSWIDE |
 | --- | --- | --- | --- | --- | 
 | CDUL | 89.0 | 88.6 | 69.2 | 44.0 |
 | TagCLIP | 92.8 | - | 68.8 | 35.0 |
 | BAC-GCN (paper) | **93.0** | **93.2** | **72.2** | **48.8** |
+
+</div>
 
 <!--
 ## YouTube
