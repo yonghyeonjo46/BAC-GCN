@@ -57,6 +57,11 @@ We identify such objects through a similarity map derived from patch-level featu
   <img src="assets/paper_img3.png" alt="Final Method" width="80%">
 </div>
 
+| Method | VOC2007 | VOC2012 | COCO2014 | NUSWIDE |
+| --- | --- | --- | --- | --- | 
+| CDUL | 89.0 | 88.6 | 69.2 | 44.0 |
+| TagCLIP | 92.8 | - | 68.8 | 35.0 |
+| BAC-GCN (paper) | **93.0** | **93.2** | **72.2** | **48.8** |
 
 <!--
 ## YouTube
@@ -150,13 +155,7 @@ python train_v12.py --val_img_root data/voc2012/images/val2014/ --val_split_file
 ```
 
 
-## Results
 
-| Method | VOC2007 | VOC2012 | COCO2014 | NUSWIDE |
-| --- | --- | --- | --- | --- | 
-| CDUL | 89.0 | 88.6 | 69.2 | 44.0 |
-| TagCLIP | 92.8 | - | 68.8 | 35.0 |
-| BAC-GCN (paper) | **93.0** | **93.2** | **72.2** | **48.8** |
 
 ## Acknowledgement
 
@@ -169,7 +168,6 @@ This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [TaI-DP
     title     = {BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification},
     booktitle = {Proceedings of the 33st ACM International Conference on Multimedia},
     year         = {2025},
-    pages     = {28515-28524}
 }
 ```
 <!--
