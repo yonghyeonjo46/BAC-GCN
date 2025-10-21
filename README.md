@@ -45,7 +45,7 @@ We identify such objects through a similarity map derived from patch-level featu
 
 ## Results
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+<div align="center": style="display: flex; justify-content: center; gap: 10px;">
   <img src="assets/paper_img1.png" alt="Final Method" width="40%">
   <img src="assets/paper_img2.png" alt="Final Method" width="50%">
 </div>
