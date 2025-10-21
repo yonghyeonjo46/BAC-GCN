@@ -177,7 +177,7 @@ This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [TaI-DP
     title     = {BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification},
     booktitle = {Proceedings of the 33st ACM International Conference on Multimedia},
     year         = {2025},
-    url         = {https://doi.org/10.1145/3746027.3755253},
+    url          = {https://doi.org/10.1145/3746027.3755253},
 }
 ```
 <!--
