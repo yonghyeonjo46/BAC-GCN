@@ -171,11 +171,13 @@ This repo benefits from [TagCLIP](https://github.com/linyq2117/TagCLIP), [TaI-DP
 
 ## Citation
 ```
-@InProceedings{yhj_baggcn,
+@InProceedings{
+    yhj_baggcn,
     author    = {Yonghyeon Jo, Janghyun Kim, Jinsun Park},
     title     = {BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification},
     booktitle = {Proceedings of the 33st ACM International Conference on Multimedia},
     year         = {2025},
+    url         = {https://doi.org/10.1145/3746027.3755253},
 }
 ```
 <!--
